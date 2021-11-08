@@ -2,10 +2,10 @@ type Project = {
   title: String,
   date: Date,
   skills: String[],
-  thumbnail: URL,
-  images: URL[],
+  thumbnail: String,
+  images?: String[],
   body: String,
   featured: Boolean,
-  liveLink?: URL,
-  sourceLink?: URL
+  liveLink?: String,
+  sourceLink?: String
 }
