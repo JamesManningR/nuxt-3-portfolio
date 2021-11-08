@@ -1,0 +1,12 @@
+query getProjects($first: Int, $skip: Int) {
+  projects(first: $first, skip: $skip) {
+    title
+    body
+    featured
+    date
+    skills
+    thumbnail {
+      id
+    }
+  }
+}
